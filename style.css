@@ -38,6 +38,7 @@
 nav .menu ul {
     display: flex;
     list-style: none;
+    font-weight: 500;
     gap:32px
 
 }
@@ -262,6 +263,11 @@ background: rgba(249, 85, 85, 1);
     
    
  }
+ #brain .brain_container .brain_info {
+    display: flex;
+        justify-content: center;
+    flex-direction: column;
+ }
  #brain .brain_container .brain_info h1{
     font-weight: 700;
     font-size: 48px;
@@ -352,6 +358,9 @@ background: rgba(249, 85, 85, 1);
     width: 20px;
     height: 20px;
     
+}
+.ready_button button:hover{
+     background-color: rgb(134, 190, 49);
 }
 
 /* footer section */
