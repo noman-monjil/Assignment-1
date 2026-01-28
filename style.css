@@ -187,11 +187,67 @@ width: 32px;
 height: 32px;
 }
  #note .note_container .note_info .info_card .logos{
-
-     background: rgba(249, 85, 85, 1);;
-    width: 64px;
+background: rgba(249, 85, 85, 1);
+   width: 64px;
     height: 64px;
     border-radius: 50%;
     padding: 14px;
+ }
+
+
+ #brain .brain_container{
+   
+    width: 100%;
+    height: 840px;
+    padding: 120px;
+    display: flex;
+    gap: 60px;
+ }
+ #brain .brain_container .brain_img{
+    width: 600px;
+    height: 600px;
+   
+ }
+ #brain .brain_container .brain_info .solution {
+    color: #469165;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 16px;
+    
+    
+   
+ }
+ #brain .brain_container .brain_info h1{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 16px;
+ }
+ #brain .brain_container .brain_info .personal_paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: rgb(98, 115, 130);
+ }
+ .check_mark li{
+    list-style: none;
+    margin-bottom: 16px;
+    
+     display: flex;
+     align-items: center;
+    
+ }
+ .check_mark{
+    
+   
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #1a2b3c;
+ }
+ .check_icon{
+   height: 20px;
+   width: 20px;
+  
+
+    margin-right: 6px;
  }
 
